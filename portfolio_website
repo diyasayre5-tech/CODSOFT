@@ -1,0 +1,104 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+  <met<!a charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    body { line-height: 1.6; color: #333; }
+    header { background: #8a8aa3; color: #401a99; padding: 40px 20px; text-align: center; }
+    header h1 { font-size: 2.5rem; }
+    header p { margin-top: 10px; font-size: 1.1rem; }
+
+    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+    section h2 { margin-bottom: 20px; font-size: 2rem; color: #222; border-bottom: 2px solid #805858; display: inline-block; }
+
+    .about { display: flex; flex-wrap: wrap; gap: 30px; align-items: center; }
+    .about img { width: 200px; height: 200px; object-fit: cover; border-radius: 50%; border: 4px solid #ddd; }
+
+    .skills ul { list-style: square inside; margin-top: 10px; }
+
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .project-card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; }
+
+    .resume a { display: inline-block; margin-top: 15px; padding: 12px 20px; background: #835252; color: #fff; text-decoration: none; border-radius: 5px; }
+    .resume a:hover { background: #bd6565; }
+
+    .contact p { margin: 8px 0; }
+
+    footer { background: #222; color: #fff; text-align: center; padding: 15px; margin-top: 40px; }
+
+    @media (max-width: 600px) {
+      .about { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Diya's Portfolio</h1>
+    <p></p>(Student | Developer | Designer)</p>
+  </header>
+
+  <!-- About Section -->
+  <section>
+    <h2>About Me</h2>
+    <div class="about">
+      <!-- Replace profile.jpg with your image file -->
+      <img src="image.jpg" alt="My Photo" />
+      <p>
+        I am a B.Tech Information Technology student currently in my 3rd year, with a strong interest in software and web development. I have hands-on experience in web technologies along with a solid foundation in Java and Data Structures & Algorithms. I am passionate about learning new technologies and building efficient, user-friendly applications.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Basic Python / C / Java</li>
+      <li>Responsive Web Design</li>
+      <li>Problem Solving</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Calculator</h3>
+        <p>A simple calculator built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>A responsive landing page with modern layout and design.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="resume">
+    <h2>Resume</h2>
+    <p>You can download my resume by clicking the button below:</p>
+    <!-- Replace resume.pdf with your actual resume file -->
+    <a href="resume.pdf" download>Download Resume (PDF)</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: diyasayre@email.com</p>
+    <p>Phone: +91-9876523456</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Diya Sayare. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
