@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Foodie Woodie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+    <h1>Foodie Woodie 🍽️</h1>
+    <p>Delicious Food | Fresh Taste | Fast Delivery</p>
+</header>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h2>Welcome to Foodie Woodie</h2>
+        <p>Experience mouth-watering dishes made with love</p>
+        <button>Order Now</button>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+    <h2>About Us</h2>
+    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1"
+         alt="Food Image">
+    <p>
+        Foodie Woodie brings you delicious meals prepared with fresh
+        ingredients. Our mission is to satisfy every foodie with quality
+        and taste.
+    </p>
+</section>
+
+<!-- Menu Section -->
+<section class="menu" id="menu">
+    <h2>Our Menu</h2>
+
+    <div class="menu-items">
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1548365328-9f547fb0951b" alt="Pizza">
+            <h3>🍕 Pizza</h3>
+            <p>Cheesy and delicious pizza</p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1550547660-d9450f859349" alt="Burger">
+            <h3>🍔 Burger</h3>
+            <p>Juicy burgers with fresh veggies</p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e" alt="Pasta">
+            <h3>🍝 Pasta</h3>
+            <p>Creamy pasta with rich flavors</p>
+        </div>
+
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e" alt="Dessert">
+            <h3>🍰 Desserts</h3>
+            <p>Sweet treats for every mood</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: foodiewoodie@gmail.com</p>
+    <p>Phone: +91 9876543212</p>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    
+</footer>
+
+</body>
+</html>
+
+#css code
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background: #ff5722;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.hero button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* About */
+.about img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Menu */
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: white;
+    width: 220px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Contact */
+.contact {
+    background: #ffe0d3;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
